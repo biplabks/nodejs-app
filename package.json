@@ -6,11 +6,6 @@
     "node": ">= 7.6.0"
   },
 
-  "now": {
-    "version": 2,
-    "dotenv": "variables.env.now"
-  },
-
   "scripts": {
     "start": "node ./start.js",
     "watch": "nodemon ./start.js --ignore public/",
